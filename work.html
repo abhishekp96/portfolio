@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work — Abhishek Pore</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg py-3">
+    <div class="container">
+      <a class="navbar-brand brand" href="index.html">AP<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+          <li class="nav-item"><a class="nav-link nav-link-custom active" href="work.html">Work</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="testimonials.html">Testimonials</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-navy d-none d-lg-inline-flex">
+          Let's Connect
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="section pb-4 position-relative overflow-hidden">
+  <div class="dotgrid position-absolute d-none d-lg-block" style="width:200px; height:200px; top:20px; right:60px;"></div>
+  <div class="container position-relative">
+    <p class="eyebrow mb-2">My Work</p>
+    <h1 class="fw-800 mb-3" style="letter-spacing:-0.02em; font-size:clamp(2rem,4vw,2.7rem);">Projects that make an impact.</h1>
+    <p class="text-muted-soft mb-4" style="max-width:640px;">Here are some of the projects I've worked on. Each one represents a unique challenge and my approach to solving it through user-centered design.</p>
+
+    <div class="d-flex flex-wrap gap-2 mb-5">
+      <button class="filter-pill active" data-filter="all">All Projects</button>
+      <button class="filter-pill" data-filter="enterprise">Enterprise</button>
+      <button class="filter-pill" data-filter="web">Web Applications</button>
+      <button class="filter-pill" data-filter="marketplace">Marketplace</button>
+      <button class="filter-pill" data-filter="dashboard">Dashboard</button>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-category="enterprise">
+        <div class="card-soft h-100 d-flex flex-column">
+          <div class="thumb d-flex align-items-center justify-content-center p-3">
+            <div class="w-100" style="font-size:.6rem;">
+              <div class="fw-bold mb-1">Welcome back, Employee</div>
+              <div class="row g-1">
+                <div class="col-8">
+                  <div class="border rounded p-1 mb-1 bg-white">Quick Links</div>
+                  <div class="row g-1">
+                    <div class="col-3"><div class="border rounded bg-white p-2"></div></div>
+                    <div class="col-3"><div class="border rounded bg-white p-2"></div></div>
+                    <div class="col-3"><div class="border rounded bg-white p-2"></div></div>
+                    <div class="col-3"><div class="border rounded bg-white p-2"></div></div>
+                  </div>
+                </div>
+                <div class="col-4"><div class="border rounded bg-white p-2 h-100">Announcements</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 d-flex flex-column flex-grow-1">
+            <span class="pill-tag">Enterprise</span>
+            <h5 class="fw-bold mb-2">London Stock Exchange Group</h5>
+            <p class="text-muted-soft small mb-3">Redesigned the employee portal to simplify navigation, reduce clutter, and improve access to essential tools for thousands of employees.</p>
+            <a href="lseg.html" class="btn-blue-link mt-auto d-inline-flex align-items-center gap-2">View Case Study
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-category="dashboard">
+        <div class="card-soft h-100 d-flex flex-column">
+          <div class="thumb thumb-dark d-flex align-items-center justify-content-center p-3">
+            <div class="w-100" style="font-size:.6rem; color:#fff;">
+              <div class="fw-bold mb-1">Dashboard</div>
+              <div class="row g-1 mb-1">
+                <div class="col-4"><div class="rounded p-2" style="background:rgba(255,255,255,.15)">Clients<br><strong>1,250</strong></div></div>
+                <div class="col-4"><div class="rounded p-2" style="background:rgba(255,255,255,.15)">Projects<br><strong>320</strong></div></div>
+                <div class="col-4"><div class="rounded p-2" style="background:rgba(255,255,255,.15)">Tasks<br><strong>85</strong></div></div>
+              </div>
+              <div class="rounded" style="background:rgba(255,255,255,.1); height:34px;"></div>
+            </div>
+          </div>
+          <div class="p-4 d-flex flex-column flex-grow-1">
+            <span class="pill-tag">Enterprise</span>
+            <h5 class="fw-bold mb-2">Insight Global – ERP Platform</h5>
+            <p class="text-muted-soft small mb-3">Designed and developed an ERP platform that streamlined operations, improved data visibility, and enhanced user efficiency.</p>
+            <a href="insight-global.html" class="btn-blue-link mt-auto d-inline-flex align-items-center gap-2">View Case Study
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-category="marketplace">
+        <div class="card-soft h-100 d-flex flex-column">
+          <div class="thumb d-flex align-items-end p-3" style="background:linear-gradient(180deg, rgba(10,19,48,.15), rgba(10,19,48,.65)), url('images/cattle.jpg') center/cover;">
+            <div class="text-white"><p class="fw-bold mb-0 small">Trusted Marketplace for Cattle Trading</p></div>
+          </div>
+          <div class="p-4 d-flex flex-column flex-grow-1">
+            <span class="pill-tag">Marketplace</span>
+            <h5 class="fw-bold mb-2">Pashushala – Cattle Trading Platform</h5>
+            <p class="text-muted-soft small mb-3">Designed and developed a cattle trading platform that connects buyers and sellers with a seamless and trustworthy experience.</p>
+            <a href="pashushala.html" class="btn-blue-link mt-auto d-inline-flex align-items-center gap-2">View Case Study
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-5">
+  <div class="container">
+    <div class="bg-soft rounded-4 p-4 p-md-5 d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+      <div>
+        <h5 class="fw-bold mb-1">Have a project in mind?</h5>
+        <p class="text-muted-soft mb-0">I'm currently open to new opportunities. Let's create something great together.</p>
+      </div>
+      <a href="contact.html" class="btn btn-navy flex-shrink-0">Let's Connect
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer py-4">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+    <ul class="list-unstyled d-flex flex-wrap gap-4 mb-0">
+      <li><a href="mailto:abhishekp96@gmail.com" class="d-inline-flex align-items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></svg>abhishekp96@gmail.com</a></li>
+      <li><a href="tel:+919922426794" class="d-inline-flex align-items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2z"/></svg>+91 99224 26794</a></li>
+      <li><span class="d-inline-flex align-items-center gap-2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Pune, India</span></li>
+    </ul>
+    <div class="d-flex gap-2">
+      <a href="https://www.linkedin.com/in/abhishekpore96/" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a>
+      <a href="https://github.com/abhishekp96" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .6 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg></a>
+      <a href="https://www.behance.net/abhishekpore" target="_blank" rel="noopener" class="social-icon" aria-label="Dribbble"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6h6.2c3.7 0 4.7 2.2 3.4 4.2A3 3 0 0 1 15 13c1.8.9 2.3 4.2-1.4 5.7-1 .4-2.2.6-3.4.6H4zm2.7 4.9h3c1.9 0 1.9-2.4 0-2.4h-3zm0 5.2h3.2c2.3 0 2.4-2.7 0-2.7H6.7zM16 10.2h5.7v1.3H16zM23 15.4c-.2 2.6-2.2 3.9-4.6 3.9-3.3 0-5.1-1.9-5.1-5 0-3.2 2-5.2 5-5.2 3 0 4.6 2 4.6 5.2v.4h-7c.1 1.5 1 2.5 2.6 2.5 1.1 0 1.8-.4 2.1-1.2zm-2.3-2.4c-.1-1.3-.9-2.1-2.2-2.1-1.2 0-2 .8-2.3 2.1z"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
